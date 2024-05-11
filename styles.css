@@ -195,11 +195,12 @@ textarea {
     background: #000000; }
 
     .carousel-item img {
-        max-width: 40%;
+        max-width: 50%;
         max-height: auto;
         display: block;
-        margin: 20px auto;
-        border: 2px solid #333;
+        margin: 0 auto;
+        margin-bottom: 60px;
+        margin-top: 20px;
     }
 
     h5{
