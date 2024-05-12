@@ -150,6 +150,7 @@ form {
     margin-bottom: 20px;
     margin-top: 20px;
     background-image: linear-gradient(to right, black , #333);
+    box-sizing: border-box;
 }
 
 input[type=text]:focus {
