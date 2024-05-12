@@ -142,7 +142,7 @@ p {
 form {
     color: orangered;
     margin: 0 auto;
-    width: 55%;
+    width: 70%;
     border: groove 6px orangered;
     border-radius: 10%;
     text-align: center;
@@ -150,21 +150,26 @@ form {
     margin-bottom: 20px;
     margin-top: 20px;
     background-image: linear-gradient(to right, black , #333);
-    box-sizing: border-box;
+}
+
+form label {
+    margin-top: 10px;
+    margin-bottom: 1px;
+}
+
+input{
+    width: 60%;
 }
 
 input[type=text]:focus {
     background-color: silver;
     border: 3px solid orangered;
-    box-sizing: border-box;
 }
 
 textarea:focus {
     background-color: silver;
     border: 3px solid orangered;
-    box-sizing: border-box;
 }
-
 
 textarea {
     width: 80%;
