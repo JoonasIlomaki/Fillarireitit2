@@ -203,7 +203,7 @@ textarea {
 
     .carousel-item img {
         max-width: 60%;
-        max-height: auto;
+        max-height: 120vh;
         display: block;
         margin: 0 auto;
         margin-bottom: 60px;
